@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="text-warning">Kredi Hesaplama Aracı</h1>
+        <form>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Kredi:</label>
+                    <select class="form-control kredi_türü mt-2" id="exampleFormControlSelect1">
+                        <option>Seciniz</option>
+                        <option id="konut">Konut Kredisi</option>
+                        <option id="ihtiyac">Ihtiyac Kredisi</option>
+                        <option id="arac">Arac Kredisi</option>
+
+                    </select>
+                </div>
+
+            </div> <br>
+            <div class="form-group">
+                <label for="vade">Vade:</label>
+                <input type="number" class="form-control mt-2" id="vade" value=""><br>
+
+            </div>
+            <div class="form-group">
+                <label for="tutar">Tutar: </label>
+                <input type="number" class="form-control mt-2" id="tutar" value="">
+            </div> <br>
+
+            <button type="submit" class="hesapla">Hesapla</button>
+            <button type="submit" class="yeniden_hesapla mt-4">Tekrar Hesapla</button>
+        </form><br>
+        <section class="sonuclar"></section>
+
+        <section class="tablolar">
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

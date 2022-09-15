@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(241, 244, 245);
+}
+
+.form input {
+  width: 100%;
+}
+
+.hesapla {
+  width: 100%;
+  color: white;
+  background-color: black;
+  height: 38px;
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.yeniden_hesapla {
+  width: 100%;
+  color: white;
+  background-color: rgb(232, 19, 19);
+  height: 38px;
+  border-radius: 5px;
+  height: 3rem;
+}
+
+#exampleFormControlSelect1 {
+  width: 100%;
+  height: 38px;
+  border-radius: 5px;
+}
+
+.tablolar {
+  visibility: hidden;
+  /* display: none; */
+}
+table {
+  width: 100%;
+}
+.tbody {
+  border: 1px solid #f0ad4e;
+}
+tr {
+  border: 1px solid #f0ad4e;
+}
+
+th {
+  border: 1px solid #f0ad4e;
+  padding: 10px;
+}
+
+td {
+  padding: 0.8rem;
+}
